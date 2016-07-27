@@ -1,0 +1,36 @@
+#mainDiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hexagon {
+    position: absolute;
+    width: 120px;
+    height: 104px;
+}
+
+.hexa_top {
+    float: left;
+    border-right: 30px solid #6C6;
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
+
+.hexa_middle {
+    float: left;
+    width: 60px;
+    height: 104px;
+    background-color: #6C6;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 104px;
+    font-size: .9em;
+}
+
+.hexa_bottom {
+    float: left;
+    border-left: 30px solid #6C6;
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
